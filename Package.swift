@@ -70,6 +70,10 @@ let package = Package(
       name: "TokamakStaticHTMLBenchmark",
       targets: ["TokamakStaticHTMLBenchmark"]
     ),
+    .library(
+      name: "TokamakCore",
+      targets: ["TokamakCore"]
+    ),
   ],
   dependencies: [
     // Dependencies declare other packages that this package depends on.
